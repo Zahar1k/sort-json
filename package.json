@@ -2,12 +2,12 @@
   "name": "sort-json",
   "version": "1.5.0",
   "description": "Takes a json-file and return a copy of the same file, but sorted",
-  "main": "index.js",
+  "main": "app/index.js",
   "dependencies": {
     "lodash": "^4.17.4"
   },
   "bin": {
-    "sort-json": "./cmd.js"
+    "sort-json": "./app/cmd.js"
   },
   "devDependencies": {
     "chai": "^3.5.0",
